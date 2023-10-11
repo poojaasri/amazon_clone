@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strip Lights</title>
+  <style>
+     .navbar {
+  height: 60px;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo img {
+  width: 128px;
+}
+    .product-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+  background-color: #f3f3f3;
+}
+
+.product {
+  max-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product h4 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.product p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.product .price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #c7511f;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #c7511f;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #ad3d0d;
+}
+.footer-section{
+    background-color:  #232f3e;
+    text-align: center;
+}
+.footer-section a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.footer-section p{
+    color: #666;
+}
+.amazon-choice {
+      background-color: #232f3e;
+      color: #fff;
+      padding: 5px;
+      border-radius: 3px;
+      font-size: 0.75rem;
+    }
+    .delivery-info {
+      font-size: 0.8rem;
+      color: #666;
+      margin-top: 10px;
+    }
+    .product-prime {
+      color: #2aa84c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<header>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="#"><img src="images/amazon_logo.png" alt="logo"></a>
+    </div>
+  </nav>
+</header>
+<body>
+
+  <section class="product-section">
+    <div class="product">
+      <img src="./images/striplight1.jpg" alt="Strip Lights">
+      <span class="amazon-choice">Amazon's Choice</span>
+      <h4>LED Strip Lights - Colorful</h4>
+      <p>Add ambiance to your space with customizable LED strip lights.</p>
+      <p class="price">&#8377;5,000</p>
+      <p class="delivery-info">
+        <span class="product-prime">Prime</span>
+        Get it by <strong>Tomorrow, 24 August</strong> <br>
+        FREE delivery by Amazon
+      </p>
+      <a href="#" class="buy-button">Buy Now</a>
+    </div>
+    
+    <div class="product">
+      <img src="./images/striplight2.jpg" alt="Strip Lights">
+      <span class="amazon-choice">Amazon's Choice</span>
+      <h4>Smart RGB Strip Lights</h4>
+      <p>Control the colors and brightness of these smart strip lights with your phone.</p>
+      <p class="price">&#8377;3,350</p>
+      <p class="delivery-info">
+        <span class="product-prime">Prime</span>
+        Get it by <strong>Tomorrow, 24 August</strong> <br>
+        FREE delivery by Amazon
+      </p>
+      <a href="#" class="buy-button">Buy Now</a>
+    </div>
+  </section>
+<footer>
+    <div class="footer-section">
+        <br> <br>
+    <a href="./index.html">Back to Home</a>
+    <p>&copy; 2023 Amazon. All rights reserved.</p>
+    <br> <br> <br>
+    </div>
+</footer>
+</body>
+</html>
